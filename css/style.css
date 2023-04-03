@@ -150,7 +150,7 @@ p {
   margin-top: 20px;
 }
 
-/* ----- seccion cards-----*/
+/* ----------- seccion cards  -----------*/
 .titulo-best {
   align-items: center;
   display: flex;
@@ -305,7 +305,7 @@ footer {
   padding-top: 20px;
 }
 
-/* ------ ANIMACIONES ------*/
+/* ----------- ANIMACIONES ------------*/
 
 header li:hover,
 button:hover {
@@ -315,7 +315,7 @@ button:hover {
 
 
 
-/* ---- MEDIAS QUERIES -----*/
+/* ---------- MEDIAS QUERIES --------------*/
 
 @media (min-width: 481px) {
   
@@ -375,10 +375,13 @@ button:hover {
   .contenedor-art-numerados {
     background-color: #fafafa;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     margin-left: 0px;
     margin-top: 0px;
     padding: 60px;
-    width: cover;
+    
     
 }
 
@@ -387,10 +390,15 @@ button:hover {
     margin-left: 12px;
 }
 
-  .article-advance {
-    margin-bottom: 50px;
-    margin-top: 160px;
+.article-advance, .article-everything, .article-track {
+  width: 500px;
 }
+
+.article-advance {
+  margin-top: -1px;
+}
+
+
 
   /*-- ----- medias queries section cards ---------> */
   .sanyo,
@@ -450,6 +458,8 @@ button:hover {
     flex-direction: row-reverse;
     height: 250px;
     gap: 200px;
+    margin-right: 200px;
+    
 }
 
   .iconos-y-redes {
