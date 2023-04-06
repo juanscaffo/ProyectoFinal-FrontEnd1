@@ -280,7 +280,9 @@ footer {
   justify-content: space-around;
   line-height: 30px;
   padding-top: 20px;
+  gap: 20px;
 }
+
 
 .iconos-footer {
   display: flex;
@@ -313,6 +315,13 @@ button:hover {
   opacity: 0.5;
 }
 
+header nav::before {
+  content: "\f0c9";
+  font-family: 'Font Awesome 5 Free';
+  font-size: 1.5rem;
+  font-weight: 900;
+
+}
 
 
 /* ---------- MEDIAS QUERIES --------------*/
@@ -330,9 +339,9 @@ button:hover {
     display: flex;
 }
 
-  .fa-solid {
-    display: none;
-}
+ header nav::before {
+  display: none;
+ }
 
   /* ---- MEDIAS QUERIES MAIN ----- */
 
